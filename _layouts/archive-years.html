@@ -1,0 +1,23 @@
+---
+layout: default
+title: Archive
+---
+
+<!-- Begin List Posts
+================================================== -->
+<section class="recent-posts">
+<div class="tag-title">
+    <h2><span>{{ page.type }} {{ page.title }}</span></h2>
+</div>
+<div class="home">
+
+{% for post in site.posts %}
+{% assign postyear = post.date | date: "%Y" %}
+{% if postyear == page.year %}
+    {% include postbox.html %}
+{% endif %}    
+
+{% endfor %}
+
+</div>
+</section>
