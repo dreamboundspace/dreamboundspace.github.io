@@ -1,0 +1,24 @@
+html, body {
+    height: 200%;
+  }
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      position: relative;
+      z-index: 2;
+  }
+  .indexposts {
+      margin: auto;
+  }
+  @media screen and (min-width: 975px) {
+    div.indexposts {
+      width: 75%;
+    }
+  }
+ @media screen and (max-width: 974px) {
+    div.indexposts {
+      width: 90%;
+    }
+}
