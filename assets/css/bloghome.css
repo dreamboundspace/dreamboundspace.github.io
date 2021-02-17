@@ -1,14 +1,14 @@
-.home {
+.blogposts {
     margin: auto;
 }
 @media screen and (min-width: 975px) {
-    div.home {
+    div.blogposts {
       width: 75%;
       padding-bottom: 50px;
     }
   }
  @media screen and (max-width: 974px) {
-    div.home {
+    div.blogposts {
       width: 90%;
     }
 }
