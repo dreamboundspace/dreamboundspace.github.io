@@ -50,3 +50,41 @@
 p {
     margin-bottom: 15px;
 }
+
+
+
+/* Recent Posts Footer Thing */
+#recentposts {
+  font-weight: normal;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 45px;
+}
+.recent-card-body {
+  width: 100%;
+  max-width: 18.2vw;
+}
+.recentbottom {
+  width: 100%;
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+  padding-bottom:  70px;
+}
+.recentimage {
+  width: 100%;
+}
+.recent-post-link {
+  word-wrap:break-word;
+  width: 20px;
+  font-weight: normal;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+}
+.rimage:hover + a {
+  background-color: #16161d;
+  color: #eff0d2;
+}
+.recent-post-link:hover {
+  background-color: #16161d;
+  color: #eff0d2;
+}

@@ -4,6 +4,7 @@ title:  "this is the first image test"
 date:   2021-02-11 15:15:10 -0500
 author: xbizarro
 tag: image
+image: Front Page.jpg
 ---
 
 random words rhakjfdbnjasdnf
