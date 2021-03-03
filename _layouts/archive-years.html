@@ -12,7 +12,7 @@ title: Archive
 <div class="blogposts">
 
 {% for post in site.posts %}
-{% assign postyear = post.date | date: "%Y" %}
+{% assign postyear = post.date | date: "%m-%Y" %}
 {% if postyear == page.year %}
     {% include postbox.html %}
 {% endif %}    
