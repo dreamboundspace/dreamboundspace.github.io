@@ -1,7 +1,7 @@
 @media screen and (min-width: 975px) {
     div.blogposts {
       width: 19%;
-      padding-bottom: 50px;
+      margin-bottom: 50px;
     }
   }
  @media screen and (max-width: 974px) {
@@ -50,8 +50,6 @@
 p {
     margin-bottom: 15px;
 }
-
-
 
 /* Recent Posts Footer Thing */
 #recentposts {

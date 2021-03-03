@@ -43,7 +43,7 @@ heading: blog
       {% if page == paginator.page %}
         <span class="currentnumberpage">{{ page }}</span>
       {% elsif page == 1 %}
-        <a class="numberpage" href="{{ '/' | relative_url }}">{{ page }}</a>
+        <a class="numberpage" href="{{ '/blog' | relative_url }}">{{ page }}</a>
       {% else %}
         <a class="numberpage" href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
       {% endif %}
