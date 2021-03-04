@@ -195,3 +195,26 @@
 	color: gold;
 	text-decoration: line-through;
 }
+.about {
+	margin: auto;
+	width: 80%;
+	background-color: chartreuse;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+    font-family: 'Rokkitt', serif;
+    text-transform: lowercase;
+	color: #16161d;
+}
+.leftabout {
+	background-color: coral;
+	margin-right: 10px;
+	flex: 50%;
+	max-width: 50%;
+}
+.rightabout {
+	background-color: cyan;
+	margin-left: 10px;
+	flex: 50%;
+	max-width: 50%;
+}

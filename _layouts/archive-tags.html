@@ -9,7 +9,7 @@ title: Archive
 {% include archivesidebar.html %}
 <div class="blogposts">
 <div class="tag-title">
-    <h2><span>{{ page.type }} {{ page.title }}</span></h2>
+    <h2><span>{{ page.type }} #{{ page.title }}</span></h2>
 </div>
 {% for post in site.posts %}
 {% if post.tags contains page.tag or post.tag == page.tag %}

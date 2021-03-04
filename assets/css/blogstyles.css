@@ -91,7 +91,7 @@ p {
 
 #sidebar {
   width: fit-content;
-  position: absolute;
+  position: fixed;
 }
 .yearblock {
   padding-top: 10px;
