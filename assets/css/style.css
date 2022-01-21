@@ -198,23 +198,18 @@
 .about {
 	margin: auto;
 	width: 80%;
-	background-color: chartreuse;
-	display: flex;
-	flex-direction: row;
-	text-align: center;
     font-family: 'Rokkitt', serif;
-    text-transform: lowercase;
+	text-transform: lowercase;
+	font-size: 15px;
 	color: #16161d;
+	margin-bottom: 100px;
 }
 .leftabout {
-	background-color: coral;
-	margin-right: 10px;
-	flex: 50%;
-	max-width: 50%;
+	max-width: 40%;
+	margin: auto;
 }
-.rightabout {
-	background-color: cyan;
-	margin-left: 10px;
-	flex: 50%;
-	max-width: 50%;
+.moon {
+	width: 10%;
+	margin: 0 auto 30px;
+	display: block;
 }

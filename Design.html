@@ -15,7 +15,7 @@ layout: og-dreambound
 		<img class="myImg" src="{{site.baseurl}}/assets/images/designimages/Untitled-2.jpg" alt="untitled 2">
 	</div>
 	<div class="column">
-		<img class="myImg" src="{{site.baseurl}}/assets/images/designimages/b&p.jpg" alt="beauty & psychosis">
+		<img class="myImg" src="{{site.baseurl}}/assets/images/designimages/b&p.jpg" alt="beauty & psychosis (the end of the night within the greatest moments of our lives brought to you by jose cuervo and la croix)">
 		<img class="myImg" src="{{site.baseurl}}/assets/images/designimages/spectrum.jpg" alt="a spectrum">
 		<img class="myImg" src="{{site.baseurl}}/assets/images/designimages/biscayne.jpg" alt="biscayne">
 		<img class="myImg" src="{{site.baseurl}}/assets/images/designimages/x.jpg" alt="x">
@@ -63,15 +63,16 @@ $('.myImg').click(function(){
     modal.style.display = "block";
     var newSrc = this.src;
     modalImg.attr('src', newSrc);
-    captionText.innerHTML = this.alt;
+	captionText.innerHTML = this.alt;
+	document.querySelector("body").style.overflow = 'hidden';
 });
 
 var span = document.getElementsByClassName("close")[0];
 
 span.onclick = function() {
   modal.style.display = "none";
-}
-	
+  document.querySelector("body").style.overflow = 'visible';
+}	
 </script>
 	
 </body>
