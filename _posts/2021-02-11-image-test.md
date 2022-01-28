@@ -26,5 +26,3 @@ dshfsdahfijasdifo dohsfpsdnf  djfd[sf dsf djfiod d fhsdjkfue eu ue a. dhf  fhdbf
 <p align="center">
     <a href="https://dreamboundspace.github.io"><img src="{{site.baseurl}}/assets/images/Moon-Spin.gif" alt="moon spin" width="50%"></a>
 </p>
-
-Now we start on the ARCHIVES
