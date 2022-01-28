@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "my thoughts on the upcoming election"
+title:  "pterodactyl triceratops aluminum gargantuan ulterior octogan"
 date:   2021-01-15 13:08:40 -0500
 author: xbizarro
 tag: thefirstone

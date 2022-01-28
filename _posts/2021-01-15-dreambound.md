@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "dreambound is the greatest idea known to mankind and should be recognized as such"
+title:  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lobortis sem sit amet fringilla venenatis."
 date:   2021-01-15 13:06:22 -0500
 tag: the first one
 category: yo
