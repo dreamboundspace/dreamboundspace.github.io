@@ -2,6 +2,7 @@
 layout: posts
 title:  "dreambound"
 date:   2022-08-29 8:00:00 -0500
+image: 1-dreambound.png
 tag: meta
 ---
 i've become disillusioned with the idea of an artist website. sure i could create a squarespace website with a list of accomplishments and jpegs of art, but I wanted something more than just a trophy case to represent who I am. inspired by online spaces like myspace and kith, i used my very, very basic coding skills to build this, **dreambound**, my own space to share my ideas, interests, and dreams exactly as i imagine them.
