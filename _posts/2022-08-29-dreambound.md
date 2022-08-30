@@ -2,7 +2,7 @@
 layout: posts
 title:  "dreambound"
 date:   2022-08-29 8:00:00 -0500
-image: 1-dreambound.png
+image: 1-dreambound.jpg
 author: isaac
 tag: meta
 ---
